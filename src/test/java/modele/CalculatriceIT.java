@@ -47,7 +47,7 @@ public class CalculatriceIT {
         int expResult = 12;
         int result = instance.claculer(a, b);
         assertEquals(expResult, result);
-        
+        System.out.println("Le test a echoué");
     }
     
 }
