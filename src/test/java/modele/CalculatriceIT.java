@@ -37,9 +37,7 @@ public class CalculatriceIT {
     public void tearDown() {
     }
 
-    /**
-     * Test of claculer method, of class Calculatrice.
-     */
+    
     @Test
     public void testClaculer() {
         System.out.println("claculer");
