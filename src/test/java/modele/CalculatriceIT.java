@@ -44,7 +44,7 @@ public class CalculatriceIT {
         int a = 5;
         int b = 7;
         Calculatrice instance = new Calculatrice();
-        int expResult = 10;
+        int expResult = 12;
         int result = instance.claculer(a, b);
         assertEquals(expResult, result);
         
