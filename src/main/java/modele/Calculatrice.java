@@ -3,12 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.projetjenkins;
+package modele;
 
 /**
  *
  * @author geisy
  */
-public class Test {
+class Calculatrice {
+    public int claculer(int a, int b)
+    {
+    
+        return a+b;
+    
+    }
     
 }
