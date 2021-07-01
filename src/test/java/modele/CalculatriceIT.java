@@ -50,7 +50,7 @@ public class CalculatriceIT {
         int result = instance.calculer(a, b);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test a échoué.");
+        System.out.println("The test a échoué.");
     }
     
 }
