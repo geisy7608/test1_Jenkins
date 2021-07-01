@@ -10,7 +10,7 @@ package modele;
  * @author geisy
  */
 class Calculatrice {
-    public int claculer(int a, int b)
+    public int calculer(int a, int b)
     {
     
         return a+b;

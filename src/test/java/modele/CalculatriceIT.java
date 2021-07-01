@@ -37,17 +37,20 @@ public class CalculatriceIT {
     public void tearDown() {
     }
 
-    
+    /**
+     * Test of calculer method, of class Calculatrice.
+     */
     @Test
-    public void testClaculer() {
-        System.out.println("claculer");
+    public void testCalculer() {
+        System.out.println("Calculer");
         int a = 5;
         int b = 7;
         Calculatrice instance = new Calculatrice();
-        int expResult = 12;
-        int result = instance.claculer(a, b);
+        int expResult = 10;
+        int result = instance.calculer(a, b);
         assertEquals(expResult, result);
-        System.out.println("Le test a echoué");
+        // TODO review the generated test code and remove the default call to fail.
+        fail("The test a échoué.");
     }
     
 }
